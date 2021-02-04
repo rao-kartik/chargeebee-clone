@@ -1,0 +1,276 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%; /*1rem = 10px */
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    background-color:gray;
+    height: 8rem;
+    margin-bottom: 8rem;
+}
+
+.paragraph{
+    font-size: 1.6rem;
+}
+
+.paragraph_2{
+    font-size: 1.3rem;
+}
+
+.heading_prime {
+font-size: 4rem;
+font-weight: 700;
+line-height: 4.5rem;
+
+}
+
+
+.heading_prime:active {
+    color:black;
+}
+
+.heading_secondary{
+font-size: 2.5rem;
+font-weight: 600;
+text-align: center;
+}
+
+.heading_fourth{
+
+} 
+
+
+/* Header button*/
+.top_toggle{
+    position: relative;
+}
+
+.top_currency_buttons{
+    position: absolute; /*taking position from parent*/
+    right: 15rem; 
+    border: none;
+}
+
+.top_toggle_button{
+    margin: 3rem;
+    border: none;
+    font-weight:400;
+    
+}
+
+.top_toogle_currency{
+    margin-left: 1.5rem;
+    border: none;
+    font-weight:400;
+}
+
+.top_currency_buttons:link, .top_currency_buttons:active{
+    color: #6f43ae;
+}
+
+.top_currency_buttons:focus{
+    outline: none;
+    color: #6f43ae;
+}
+
+.top_toogle_currency{
+ outline : none;
+ color: #6f43ae;
+}
+
+/*top_aea box of grid*/
+
+.hero_area{
+    position: relative;
+    top : 7rem;
+    width: 122rem;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20rem;
+    gap: 3rem 3rem;
+    grid-template-columns: 23% 1fr 1fr 1fr;
+    grid-template-rows: 50rem; 
+
+}
+
+/* stlye applied col1*/
+
+.hero_col1{
+    position: relative;
+   
+    
+}
+
+.hero_col1 span {
+    position: absolute;
+    top: 25%
+}
+
+.highlight_unsure {
+    margin-top: 5.6rem;
+    margin-left:0.5rem;
+    color:#f3c049;
+}
+
+/* .hero_col2{
+    background-color: thistle;
+} */
+
+.hero_col3{
+    position: relative;
+}
+
+.hero_col4{
+    background-color:  thistle;
+}
+
+div.hero_col1 p{
+    position: absolute;
+    top: 60%;
+}
+
+div.hero_col1 a{
+    position: absolute;
+    top: 70%;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/*style applied col2*/
+
+.hero_top_heading{
+    display: inline-block;
+    font-size: 2rem;
+    color: #6f43ae;
+    margin-bottom: 1.5rem;
+
+}
+.hero_popular{
+    display: inline-block;
+    position: absolute;
+    padding: .4rem;
+    border-radius: 8rem;
+    color: #6f43ae ;
+    background-color: transparent;
+    border: 2px solid #6f43ae;
+    font-size: 1.2rem;
+    
+
+}
+
+
+.price_rate
+{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.price_value{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.price_rate2{
+    font-size: 1.3;
+    font-weight: 1.5rem;
+    margin-top: 1.5rem;
+
+}
+
+.btn_1{
+    padding: 1.5rem 4.5rem;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    background-color: #6f43ae; 
+    font-size: 1.6rem;  
+    margin-top: 2rem    ;
+
+}
+.hero_offer_discription{
+    color: rgb(0, 0 , 0, 0.6);
+    margin-top: 6rem;
+}
+
+.hero_list{
+    margin-left: 1.5rem;
+    margin-top: 8rem;
+}
+.list_item{
+    margin-bottom: 1rem;
+}
+.hero_bold_text{
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-top: 1.8rem;
+    
+}
+.hero_list2 {
+    margin-left: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+
+
+
+
+
+
+.middle{
+    width: 100%;
+    background: #eef0f2;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+
+}
+.middle_S{
+    width: 80%;
+    display: flex;
+    border: 1px solid green;
+    margin: auto;
+    
+}
+.middle_l, .middle_r{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    width: 60rem;
+    flex-wrap: wrap;
+    border: 2px solid blue;
+    
+}
+.middle_quote {
+    padding: 10px;
+    float: left;
+}
+.middle_figure img{
+max-width: 60px;
+border-radius: 50%;
+margin: 0 auto;
+}
+a { 
+    text-decoration: none; 
+} 
+
+
+
+
+
+
+
+
+
+
+
