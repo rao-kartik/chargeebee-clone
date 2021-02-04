@@ -7,10 +7,7 @@ html, body, #main_demo {
     padding: 0;
     margin: 0;
 }
-.color_back {
-    background-color: #f6f9fb;
-    height: 550px;
-}
+
 .display_flex {
     display: flex;
 }
@@ -24,6 +21,8 @@ html, body, #main_demo {
     color: #4e5058;
     padding-left: 10%;
     padding-right: 10%;
+    background-color: #f6f9fbf5;
+    box-shadow: 0 200px 500px;
 }
 .header > div {
     margin-right: 40px;
@@ -182,6 +181,53 @@ html, body, #main_demo {
     grid-area: right;
 }
 /* back_blue */
+#purple_main {
+    margin-top: 50px;
+}
+#slant_purple_top {
+    width: 100%;
+    height: 200px;
+    background-color:#8a2be2;
+    position: absolute;
+    top: 2200px;
+    left: 0;
+    transform: skewY(-2.5deg);
+    transform-origin: top left;
+    z-index: -2;
+}
+#slant_blue_top {
+    width: 100%;
+    height: 200px;
+    background-color: #2a1469;
+    position: absolute;
+    top: 2200px;
+    left: 0;
+    transform: skewY(-1.5deg);
+    transform-origin: top left;
+    z-index: -1;
+}
+#slant_purple_bottom {
+    width: 100%;
+    height: 200px;
+    background-color:#8a2be2;
+    position: absolute;
+    top: 4430px;
+    left: 0;
+    transform: skewY(2.5deg);
+    transform-origin: top left;
+    z-index: -2;
+}
+#slant_blue_bottom {
+    width: 100%;
+    height: 200px;
+    background-color: #2a1469;
+    position: absolute;
+    top: 4430px;
+    left: 0;
+    transform: skewY(1.5deg);
+    transform-origin: top left;
+    z-index: -1;
+}
 .back_blue {
     background-color: #2a1469;
     color: white;
@@ -430,7 +476,7 @@ html, body, #main_demo {
 .head_sch i {
     margin-top: 7px;
     padding-left: 5px;
-
+}
 /* Services */
 .comp_services {
     width: 80%;
