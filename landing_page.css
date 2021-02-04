@@ -1,0 +1,363 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Sans';
+}
+html, body, #main_demo {
+    padding: 0;
+    margin: 0;
+}
+.color_back {
+    background-color: #f6f9fb;
+    height: 550px;
+}
+.display_flex {
+    display: flex;
+    align-items: center;
+}
+.display_grid {
+    display: grid;
+}
+.header {
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    color: #4e5058;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: fixed;
+}
+.header > div {
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.header > div:nth-child(1) {
+    margin-top: 13px;
+}
+.logo {
+    width: 110px;
+    height: 34px;
+}
+.login_demo {
+    flex-grow: 1;
+    flex-direction: row-reverse;
+}
+.login_demo > div:nth-child(2) {
+    margin-right: 20px;
+}
+.login_demo > div:nth-child(2) > div{
+    margin-right: 5px;
+}
+.login_demo > div:nth-child(2) > div:nth-child(2){
+    margin-right: 5px;
+}
+.schedule_orange {
+    background-color: #ff7846;
+    height: 36px;
+    width: 180px;
+    text-align: center;
+    justify-content: center;
+    margin-top: -10px;
+    color: white;
+    border-radius: 3px;
+}
+.demo{
+    margin-top: 9px;
+    margin-right: 5px;
+}
+/* colored subscription CSS */
+.colored_sub {
+    font-size: 48px;
+    text-align: center;
+    line-height: 0px;
+    padding-top: 120px;
+}
+.colored_sub > h5:nth-child(1) {
+    color: #500ad2;
+}
+.colored_sub > p {
+    font-size: 15px;
+    line-height: 10px;
+}
+.sch_signup_btn {
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.sch_signup_btn > div {
+    height: 54px;
+    flex-basis: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: center;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid #500ad2;
+    color: #500ad2;
+    align-items: center;
+}
+.sign_i {
+    padding-left: 10px;
+}
+.sch_signup_btn > div:nth-child(1), .schedule_purple {
+    flex-basis: 240px;
+    font-weight: 500;
+    justify-content: center;
+    height: 54px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #500ad2;
+    color: white;
+    align-items: center;
+}
+.schedule_purple p {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+/* Automate _text, Smarter_text, Streamline_txt */
+.automate {
+    grid-template: "left right";
+    gap: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: auto;
+    padding-top: 150px;
+}
+.automate h5 {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.automate_text > p:nth-child(1) {
+    color: #500ad2;
+    font-size: 14px;
+}
+.automate_text, p:nth-child(3) {
+    padding-right: 150px;
+}
+.automate_text {
+    grid-area: left;
+    margin-right: 0;
+    padding-right: 0;
+}
+.automate_img {
+    grid-area: right;
+}
+.automate_content {
+    flex-direction: column;
+    justify-content: space-between;
+}
+.check_box {
+    display: flex;
+    width: 200px;
+}
+.check_right {
+    padding-left: 100px;
+}
+.check_box i {
+    color: #78cb7c;
+    margin-top: 15px;
+    padding-right: 10px;
+}
+.learn_more {
+    border: 1px solid #000ff0;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    color: #000ff0;
+    font-size: 14px;
+    margin-top: 23px;
+}
+.learn_more i {
+    padding-top: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.smarter {
+    gap: 220px;
+    padding-left: 13%;
+}
+.smarter_img {
+    grid-area: left;
+}
+.smarter_text {
+    grid-area: right;
+}
+/* back_blue */
+.back_blue {
+    background-color: #2a1469;
+    color: white;
+    width: 100%;
+    height: auto;
+}
+.title  {
+    padding-left: 30%;
+}
+.heading > h1 {
+    padding-top: 80px;
+    padding-bottom: 0px;
+    line-height: 25px;
+}
+.heading > h1:nth-child(2){
+    margin-top: 0;
+    padding-top: 0;
+}
+.back_blue > p {
+    color: #8372af;
+}
+.back_blue > div:nth-child(2) {
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+#details {
+    display: grid;
+    grid-template: "left right";
+    padding-left: 30%;
+    padding-right: 30%;
+    gap: 80px;
+}
+.details_left {
+    grid-area: left;
+}
+.details_right {
+    grid-area: right;
+}
+.details_left img {
+    height: 50px;
+}
+.details_right img {
+    height: 80px;
+}
+.details_c > p:nth-child(1){
+    font-size: 14px;
+    color: #ff7846;
+}
+.details_c > h4 {
+    font-size: 20px;
+}
+.text_det_col {
+    color: #9184b5;
+}
+#grid_line {
+    width: 100%;
+    height: 1.3px;
+    background-color:#1f0d52;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.preferred {
+    background-color: #1f0d52;
+    color: #bea7ff;
+    font-size: 10px;
+    width: 120px;
+    height: 18px;
+    border-radius: 9px;
+    text-align: center;
+}
+.preferred p {
+    padding-top: 4px;
+}
+.learn_details {
+    background-color: white;
+}
+.details_syncs {
+    padding-left: 30%;
+    padding-top: 100px;
+    padding-right: 50%;
+}
+.color_base {
+    margin-top: 150px;
+    color: white;
+    justify-content: center;
+}
+.tell p {
+    font-size: 22px;
+}
+.color_base > div {
+    margin-right: 60px;
+}
+.color_base > div:nth-child(1){
+    flex-basis: 260px;
+    margin-top: -25px;
+}
+#base_line {
+    width: 80%;
+    background-color:  #716890;
+    height: 1px;
+    margin: auto;
+    margin-top: 50px;
+}
+.base_head {
+    font-size: 48px;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    padding-bottom: 50px;
+}
+.options {
+    display: grid;
+    grid-template: "left_up middle_up right_up"
+                "left_down middle_down right_down";
+    width: 350px;
+    font-size: 14px;
+    gap: 20px;
+    margin: auto;
+    padding-bottom: 100px;
+    color: #716890;
+}
+.options >div:nth-child(1) {
+    grid-area: left_up;
+    color: white;
+}
+.options >div:nth-child(2) {
+    grid-area: middle_up;
+}
+.options >div:nth-child(3){
+    grid-area: right_up;
+}
+.under_line{
+    grid-area: left_down;
+}
+.under_line > div {
+    width: 60px;
+    height: 2px;
+    background-color: white;
+    margin: auto;
+}
+/* bottom head */
+.bottom_head {
+    padding-top: 200px;
+    width: 1400px;
+    margin: auto;
+}
+.bottom_head > h5{
+    font-size: 36px;
+    width: 700px;
+    margin-right: 33%;
+}
+.head_sch {
+    margin-top: 80px;
+}
+/* footer */
+#footer {
+    margin-top: 150px;
+    display: flex;
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-bottom: 100px;
+}
+#footer > div {
+    flex-basis: 150px;
+}
+#footer > div:nth-child(2){
+    display: flex;
+    flex-direction: row-reverse;
+    flex-grow: 1;
+}
+.social_logo {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
