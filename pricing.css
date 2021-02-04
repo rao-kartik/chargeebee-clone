@@ -34,24 +34,17 @@ line-height: 4.5rem;
 
 }
 
-
-.heading_prime:active {
-    color:black;
-}
-
 .heading_secondary{
 font-size: 2.5rem;
 font-weight: 600;
 text-align: center;
 }
 
-.heading_fourth{
 
-} 
 
 
 /* Header button*/
-.top_toggle{
+.top_toggle {
     position: relative;
 }
 
@@ -66,15 +59,21 @@ text-align: center;
     border: none;
     font-weight:400;
     
+    
+}
+.top_toggle_button:focus{
+    outline: none ;
+    color: #6f43ae;
 }
 
-.top_toogle_currency{
+.top_togle_currency{
     margin-left: 1.5rem;
     border: none;
     font-weight:400;
 }
 
 .top_currency_buttons:link, .top_currency_buttons:active{
+    outline:none;
     color: #6f43ae;
 }
 
@@ -83,7 +82,7 @@ text-align: center;
     color: #6f43ae;
 }
 
-.top_toogle_currency{
+.top_togle_currency{
  outline : none;
  color: #6f43ae;
 }
@@ -157,6 +156,7 @@ div.hero_col1 a{
     padding-left: 2rem;
 
 }
+
 .hero_popular{
     display: inline-block;
     position: absolute;
@@ -221,6 +221,14 @@ div.hero_col1 a{
 .hero_list2 {
     margin-left: 1.5rem;
     margin-top: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.hero_compare{
+    font-size: 1.5rem;
+    margin-top: 15rem;
+    color: blue;
+    text-decoration: none; 
 }
 
 .hero_offer_discription3{
@@ -232,6 +240,14 @@ div.hero_col1 a{
 .hero_enterpise_footer{
     display: inline-block;
     margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+.hero_col_learn{
+    font-size: 1.5rem;
+    margin-top: 10rem;
+    color: blue;
+    text-decoration: none;
+
 }
 
 
@@ -252,8 +268,9 @@ div.hero_col1 a{
     display: flex;
     border: 1px solid green;
     margin: auto;
-    
+   
 }
+
 .middle_l, .middle_r{
     display: flex;
     margin: 10px;
@@ -264,17 +281,33 @@ div.hero_col1 a{
     
 }
 .middle_quote {
+    position: relative;
     padding: 10px;
     float: left;
 }
+.quote_coma{
+    font-size: 1.5rem;
+}
+
+.quote_coma::before{
+   
+    content: '';
+    background: url(https://webstatic.chargebee.com/assets/web/352/images/icon/quote/cb-quote.svg) no-repeat;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-size: contain;
+    opacity: .4;
+}
+
 .middle_figure img{
 max-width: 60px;
 border-radius: 50%;
 margin: 0 auto;
 }
-a { 
+/* a { 
     text-decoration: none; 
-} 
+}  */
 
 
 
