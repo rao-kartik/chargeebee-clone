@@ -286,7 +286,11 @@ div.hero_col1 a{
     float: left;
 }
 .quote_coma{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    width: 30rem;
+    
 }
 
 .quote_coma::before{
@@ -298,16 +302,56 @@ div.hero_col1 a{
     position: absolute;
     background-size: contain;
     opacity: .4;
+    left: 1rem;
+    top: .5rem;
+    
 }
 
 .middle_figure img{
 max-width: 60px;
 border-radius: 50%;
-margin: 0 auto;
+margin-left: 10rem;
+margin-top:5rem ;
+text-align: center;
 }
-/* a { 
-    text-decoration: none; 
-}  */
+.middle_figure_img_text{
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-left: 7rem;
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+}
+
+.middle_footer_logo{
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+.middle_footer{
+    position: relative;
+    border-top: 1px solid black;
+}
+
+.middle_fotter_logo_big{
+    position: relative;
+    display: inline-block;
+    margin-top: 2rem;
+    margin-left: -5rem;   
+}
+
+.middle_footer_para{
+    position: absolute;
+    bottom: -60rem;
+    width: 30rem;
+    font-size: 1.6rem;
+    left: 45rem;
+}
+
+.middle_r {
+    background-color: white;
+    border-radius: 1rem;
+    
+}
 
 
 
