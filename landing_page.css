@@ -13,7 +13,6 @@ html, body, #main_demo {
 }
 .display_flex {
     display: flex;
-    align-items: center;
 }
 .display_grid {
     display: grid;
@@ -25,7 +24,6 @@ html, body, #main_demo {
     color: #4e5058;
     padding-left: 10%;
     padding-right: 10%;
-    position: fixed;
 }
 .header > div {
     margin-right: 40px;
@@ -60,6 +58,9 @@ html, body, #main_demo {
     margin-top: -10px;
     color: white;
     border-radius: 3px;
+}
+.schedule_orange i, .login_demo i {
+    margin-top: 10px;
 }
 .demo{
     margin-top: 9px;
@@ -101,14 +102,9 @@ html, body, #main_demo {
 }
 .sch_signup_btn > div:nth-child(1), .schedule_purple {
     flex-basis: 240px;
-    font-weight: 500;
-    justify-content: center;
-    height: 54px;
     font-size: 20px;
-    border-radius: 5px;
-    background-color: #500ad2;
     color: white;
-    align-items: center;
+    background-color: #500ad2;
 }
 .schedule_purple p {
     margin-left: 15px;
@@ -272,7 +268,7 @@ html, body, #main_demo {
     color: white;
     justify-content: center;
 }
-.tell p {
+.talk p {
     font-size: 22px;
 }
 .color_base > div {
@@ -280,7 +276,8 @@ html, body, #main_demo {
 }
 .color_base > div:nth-child(1){
     flex-basis: 260px;
-    margin-top: -25px;
+    margin-top: 60px;
+    height: 80px;
 }
 #base_line {
     width: 80%;
@@ -340,6 +337,19 @@ html, body, #main_demo {
 }
 .head_sch {
     margin-top: 80px;
+    background-color: #500ad2;
+    flex-basis: 240px;
+    font-weight: 500;
+    justify-content: center;
+    height: 54px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+}
+.head_sch i {
+    margin-top: 7px;
+    padding-left: 5px;
 }
 /* footer */
 #footer {
