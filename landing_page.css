@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Sans';
+    text-decoration: none;
 }
 html, body, #main_demo {
     padding: 0;
