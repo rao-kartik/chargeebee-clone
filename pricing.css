@@ -108,13 +108,13 @@ text-align: center;
 
 .hero_col1{
     position: relative;
-   
     
 }
 
 .hero_col1 span {
     position: absolute;
-    top: 25%
+    top: 25%;
+    
 }
 
 .highlight_unsure {
@@ -132,7 +132,7 @@ text-align: center;
 }
 
 .hero_col4{
-    background-color:  thistle;
+    
 }
 
 div.hero_col1 p{
@@ -154,6 +154,7 @@ div.hero_col1 a{
     font-size: 2rem;
     color: #6f43ae;
     margin-bottom: 1.5rem;
+    padding-left: 2rem;
 
 }
 .hero_popular{
@@ -201,6 +202,7 @@ div.hero_col1 a{
 .hero_offer_discription{
     color: rgb(0, 0 , 0, 0.6);
     margin-top: 6rem;
+    margin-bottom: 1rem;
 }
 
 .hero_list{
@@ -221,6 +223,16 @@ div.hero_col1 a{
     margin-top: 2.5rem;
 }
 
+.hero_offer_discription3{
+    color: rgb(0, 0 , 0, 0.6);
+    margin-top: 6rem;
+    margin-bottom: 2.5rem;
+}
+
+.hero_enterpise_footer{
+    display: inline-block;
+    margin-top: 1.5rem;
+}
 
 
 
