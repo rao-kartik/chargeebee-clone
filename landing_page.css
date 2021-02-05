@@ -90,6 +90,14 @@ html, body, #main_demo {
 .dropdown_content > div:nth-child(5){
     margin-left: -30px;
 }
+.header_dropdown_solutions {
+    /* display: none; */
+    padding-left: 10%;
+    padding-top: 1.5%;
+}
+.drop_sol > div { 
+    width: 200px;
+}
 /* colored subscription CSS */
 .colored_sub {
     font-size: 48px;
