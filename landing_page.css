@@ -71,6 +71,7 @@ html, body, #main_demo {
     text-align: center;
     line-height: 0px;
     padding-top: 120px;
+    height: 460px;
 }
 .colored_sub > h5:nth-child(1) {
     color: #500ad2;
@@ -110,6 +111,10 @@ html, body, #main_demo {
     margin-right: 15px;
 }
 /* Automate _text, Smarter_text, Streamline_txt */
+#data_analysis {
+    width: 100%;
+    height: 1800px;
+}
 .automate {
     grid-template: "left right";
     gap: 50px;
@@ -182,14 +187,15 @@ html, body, #main_demo {
 }
 /* back_blue */
 #purple_main {
-    margin-top: 50px;
+    width: 100%;
+    height: 2450px;
 }
 #slant_purple_top {
     width: 100%;
     height: 200px;
     background-color:#8a2be2;
     position: absolute;
-    top: 2200px;
+    top: 2308px;
     left: 0;
     transform: skewY(-2.5deg);
     transform-origin: top left;
@@ -200,7 +206,7 @@ html, body, #main_demo {
     height: 200px;
     background-color: #2a1469;
     position: absolute;
-    top: 2200px;
+    top: 2309px;
     left: 0;
     transform: skewY(-1.5deg);
     transform-origin: top left;
@@ -211,7 +217,7 @@ html, body, #main_demo {
     height: 200px;
     background-color:#8a2be2;
     position: absolute;
-    top: 4430px;
+    top: 4562px;
     left: 0;
     transform: skewY(2.5deg);
     transform-origin: top left;
@@ -222,7 +228,7 @@ html, body, #main_demo {
     height: 200px;
     background-color: #2a1469;
     position: absolute;
-    top: 4430px;
+    top: 4561px;
     left: 0;
     transform: skewY(1.5deg);
     transform-origin: top left;
@@ -371,13 +377,20 @@ html, body, #main_demo {
     margin: auto;
 }
 /* Reviews */
-
+#reviews {
+    width: 100%;
+    height: 200px;
+}
 .review {
     max-width: 1000px;
     background-color: white;
     border-radius: 8px;
     margin: auto;
-    margin-top: -150px;
+}
+#rethink_pricing {
+    position: absolute;
+    top: 4600px;
+    left: 23%;
 }
 .review_read {
     color: white;
@@ -445,9 +458,15 @@ html, body, #main_demo {
     display: none;
 } */
 #automate_finops {
+    position: absolute;
+    top: 4600px;
+    left: 23%;
     display: none;
 }
 #go_global {
+    position: absolute;
+    top: 4600px;
+    left: 23%;
     display: none;
 }
 /* bottom head */
