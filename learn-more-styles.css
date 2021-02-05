@@ -84,6 +84,29 @@ a {
     background: white !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+#responsive_tags  p{
+    margin-top: 20px;
+    margin-left : 20px;
+    color: orangered;
+    font-size: 18px;
+    border: 0px;
+    color: blue;
+    background-color: white;
+}
+#responsive_tags > div {
+    width: 200px;
+    height: 100px;
+    float: left;
+    margin-left: 18px;
+    cursor: pointer;
+}
+#responsive_tags>div:hover:after {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    border-bottom: 3px solid blue;
+    margin-top : 20px;
+}
 
 #tag_description {
     /*border : 1px solid black;*/
