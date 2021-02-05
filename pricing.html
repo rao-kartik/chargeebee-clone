@@ -8,30 +8,122 @@
     <link data-n-head="true" rel="shortcut icon" type="image/x-icon"
         href="https://www.chargebee.com/static/resources/brand/favicon.png">
 
-    <link rel="stylesheet" href="D:/pricing Masai/pricing.css">
-    <script src="D:/pricing Masai/pricing.js"></script>
+    <link rel="stylesheet" href="pricing.css">
+    <link rel="stylesheet" href="nav_bar.css">
+    <link rel="stylesheet" href="footer.css">
+    <script src="pricing.js"></script>
+    <link rel = "stylesheet" href = "uicons-regular-rounded/css/uicons-regular-rounded.css">
+        <link rel = "stylesheet" href = "uicons-solid-rounded/css/uicons-solid-rounded.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     <!--font-family: 'Open Sans', sans-serif;-->
 </head>
 
 <body>
-    <nav></nav>
-
-    <header id="maintop">
-        <div class="top_toggle">
-            <div class="top_currency_buttons">
-                <button class="top_toggle_button paragraph">Annual</button>
-                <button class="top_toggle_button paragraph">Monthly</button>
-
-                <select name="currency" class="top_togle_currency paragraph">
-                    <option value="USD">USD</option>
-                    <option value="EUR">EUR</option>
-                    <option value="INR">INR</option>
-                    <option value="INR">GBP</option>
-                </select>
+    <nav>
+        <div id="head" class="header display_flex">
+            <div><a href="landing_page.html"><img class="logo" src="https://www.chargebee.com/static/resources/brand/chargebee-logo-black.svg" /></a></div>
+            <div id="prdt">Product</div>
+            <div id="pricing"><a href="pricing.html">Pricing</a></div>
+            <div id="solutions">Solutions</div>
+            <div id="customer">Customers</div>
+            <div id="resources">Resources</div>
+            <div class="login_demo display_flex">
+                <div class="display_flex schedule schedule_orange">
+                    <p class="demo"><a href="demo.html">Schedule a Demo</a></p>
+                    <i class="fi-rr-angle-small-right demo"></i>
+                </div>
+                <div class="display_flex login">
+                    <div><i class="fi-sr-lock"></i></div>
+                    <div><a href="login.html">Login</a></div>
+                    <div><i class="fi-rr-angle-small-right"></i></div>
+                </div>
             </div>
         </div>
+        <div class="header_dropdown_product">
+            <div class="dropdown_content display_flex">
+                <div>
+                    <div>Subscription Management</div>
+                    <div>Overview</div>
+                    <div>Create & Manage Plans</div>
+                    <div>Pricing Management</div>
+                    <div>Handle Trial Subscriptions</div>
+                    <div>Customer Self-service Portal</div>
+                    <div>Mobile Solutions</div>
+                </div>
+                <div>
+                    <div>Billing Automation</div>
+                    <div>Overview</div>
+                    <div>Usage Based Billing</div>
+                    <div>Invoicing Automation</div>
+                    <div>Quotes</div>
+                    <div>Proration</div>
+                </div>
+                <div>
+                    <div>Recurring Payments</div>
+                    <div>Overview</div>
+                    <div>Multiple Payment Methods</div>
+                    <div>Multiple Payment Gateways</div>
+                    <div>Smart Dunning</div>
+                    <div>Chargeback Management</div>
+                </div>
+                <div>
+                    <div>Accounting & Taxes</div>
+                    <div>Overview</div>
+                    <div>Revenue Recognition</div>
+                    <div>Manage Sales Tax</div>
+                    <div>One-Click Reconciliation</div>
+                </div>
+                <div>
+                    <div>Reporting & Analytics</div>
+                    <div>Overview</div>
+                    <div>Deferred Revenue Reporting</div>
+                </div>
+            </div>
+        </div>
+        <div class="header_dropdown_solutions">
+            <div class="dropdown_content display_flex  drop_sol">
+                <div>
+                    <div>By Role</div>
+                    <div>Finance</div>
+                    <div>Sales</div>
+                    <div>RevOps</div>
+                </div>
+                <div>
+                    <div>By Industry</div>
+                    <div>B2B SaaS</div>
+                    <div>Ecommerce</div>
+                    <div>E-learning</div>
+                    <div>Publishing</div>
+                </div>
+                <div>
+                    <div>By Strategy</div>
+                    <div>Roll Out New Pricing</div>
+                    <div>Expand Globally</div>
+                    <div>Move Upmarket</div>
+                    <div>Shift to Subscriptions</div>
+                </div>
+                <div>
+                    <div>By Business Size</div>
+                    <div>Startup</div>
+                    <div>ScaleUp</div>
+                    <div>Enterprise</div>
+                </div>
+                <div>
+                    <div>By Business Model</div>
+                    <div>Self-serve</div>
+                    <div>Sales-driven</div>
+                </div>
+                <div>
+                    <div>By Geography</div>
+                    <div>Europe</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <header id="maintop">
+        
 
         <div class="hero_area">
 
@@ -55,7 +147,8 @@
 
                 <div class="price"></div>
                 <p class="price_rate"> USD
-                    <span class="price_value">249</span>/mo
+                    <span class="price_value">249</span>/mo<br>
+                    <span style="color: blue; font-size: 1.4rem;">billed annually</span>
                 </p>
 
                 <p class="price_rate2">
@@ -91,7 +184,9 @@
 
                 <div class="price"></div>
                 <p class="price_rate"> USD
-                    <span class="price_value">549</span>/mo
+                    <span class="price_value">549</span>/mo <br>
+                    <span style="color: blue; font-size: 1.4rem;">billed annually</span>
+
                 </p>
 
                 <p class="price_rate2">
@@ -125,19 +220,34 @@
 
             <div class="hero_col4">
 
+                <div class="top_toggle">
+                    <div class="top_currency_buttons">
+                        <button class="top_toggle_button paragraph" id="annualButton">Annual</button>
+                        
+                        <button class="top_toggle_button paragraph" id="monthlyButton">Monthly</button>
+        
+                        <select name="currency" class="top_togle_currency paragraph">
+                            <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="INR">INR</option>
+                            <option value="INR">GBP</option>
+                        </select>
+                    </div>
+                </div>
+
 
                 <span class="hero_top_heading"> Enterprise </span>
 
 
                 <div class="price"></div>
-                <p class="price_rate"> Custom </p>
+                <p class="price_rate u-margin-bottom"> Custom </p>
 
 
                 <p class="price_rate2">
                     Talk to our experts and get tailored pricing for your business.
                 </p>
 
-                <button class="btn_1">Get Started now &srarr;</button>
+                <button class="btn_2">Talk to Sales&srarr;</button>
 
                 </span>
                 <p class="hero_offer_discription3 paragraph_2">
@@ -180,7 +290,7 @@
                                 MakeSpace</strong></p>
                     </div>
 
-                    <div class="midele_footer">
+                    <div class="middle_footer">
                         <span class="middle_footer_logo"><img
                                 src="https://webstatic.chargebee.com/assets/web/314/images/case-study/getaccept/ga-logo-black.png"
                                 alt="" width="110px" height="30px"></span>
@@ -198,7 +308,8 @@
                                 src="https://customfit-experiences-images.s3-us-west-2.amazonaws.com/account/68a00150-474a-11ea-a265-d9d4407c2d40/projects/7a728920-474a-11ea-a265-d9d4407c2d40/environments/7a7f5a60-474a-11ea-a265-d9d4407c2d40/dimensions/7a80e100-474a-11ea-a265-d9d4407c2d40/images/5fb76d46-bcea-4ac4-92bc-cc6dd58ab2af.svg%20xml"
                                 alt="" width="450px" height="200px"></span>
 
-                        <p class="middle_footer_para">Chargebee users get ROI in under 7 months! We make sure you always derive maximum value from our product.</p>
+                        <p class="middle_footer_para">Chargebee users get ROI in under 7 months! We make sure you always
+                            derive maximum value from our product.</p>
 
                     </div>
 
@@ -207,58 +318,238 @@
 
                 <div class="middle_r">
 
-                    
+
                     <div class="middle_input">
                         <form class="middle_form">
-                        <label for="FName"> First Name <span class="Form_star_red">*</span></label><br>
-                        <input type="text" id="Fname" name="lname" maxlength="70%" size="50" ><br><br>
+                            <label for="FName"> First Name <span class="Form_star_red">*</span></label><br>
+                            <input type="text" id="Fname" name="lname" maxlength="70%" size="50"><br><br>
 
-                        <label for="Email"> Email <span class="Form_star_red">*</span></label><br>
-                        <input type="text" id="Email" ><br><br>
+                            <label for="Email"> Email <span class="Form_star_red">*</span></label><br>
+                            <input type="text" id="Email"><br><br>
 
-                        <label for="Phone"> Phone number <span class="Form_star_red">*</span></label><br>
-                        
-                        <select name="country" id="Phone">
-                            <option value="India"> IND</option>
-                            <option value="Englang">Eng</option> &nbsp;&nbsp;
-                            <input type="text" placeholder="+91" ><br><br>
-                        </select>
-
-                        <label for="Website"> Website URL</label>  <br>
-                        <input type="textarea" id="name" placeholder="gramener.com" > <br> <br>
-
+                            <label for="Phone"> Phone number <span class="Form_star_red">*</span></label><br>
                             
-                       
 
-                        <button class="form_shedule"> Shedule a Demo </button> <br> <br> 
+                            <select name="country" id="Phone">
+                                <option value="India">IND (भारत)</option>
+                                <option value="Englang">Eng</option> &nbsp;&nbsp;
+                                <option value="Canada">Can</option> 
+                            </select>
+                            <input type="text" id="isdcode" placeholder="+91"><br><br>
+
+                            <label for="Website"> Website URL</label> <br>
+                            <input type="textarea" id="name" placeholder="gramener.com"> <br> <br>
+
+
+
+
+                            <button class="form_shedule"> Shedule a Demo </button> <br> <br>
 
                             <p class="form_msg">By clicking on Schedule a Demo, you acknowledge having read our
                                 <a class="form_privacy" href="pri"> Privacy note</a>
                             </p><br>
-                            
-
                         </form>
                     </div>
-                   
-                    
-                
-                    
-
                 </div>
             </div>
         </div>
-
-        
-
     </header>
+
+
+
     <main class="ask_question">
         <div class="aeroplane">
             <p class="top_left_logo">Get started for free</p>
+            <h3 class="ask heading_secondary">For Early Stage Startups</h3>
+            <p class="ask_1 paragraph"> Are you a newly launched business making less than USD 50K in revenue? Chargebee
+                for Startups is meant for you. Focus on building and launching your product, while we take care of your
+                billing.</p>
+
+            <a class="ask_learnmore" href=""><strong>Learn more</strong> &srarr;</a>
 
         </div>
 
-    </main>
+        <div class="frequent_container">
+            <div class="frequent_cont">
 
+                <div class="frequent_l">
+
+                    <center> <span class="freqeunt_img"><img src="https://webstatic.chargebee.com/assets/web/352/images/customers/will-jennings.png" alt="frequentman">
+                      </span>
+                    </center>
+                    <p class="frequent_coma">
+                    Being able to automatically reconcile Stripe payments, transfers and fees is a huge win and as with everything Chargebee does, 
+                   
+                     <span class="frequent_red">
+                        it's solid and feels like they've thought of everything.
+                     </span>
+                    </p>
+
+                    <p class="frequent_director">Will Jennings <br>
+                   <strong>Managing Director, Countfire</strong>
+                   </p>
+
+                <a  class="profit_link" href="profit">
+                   <span class="profit_not">Not-for-Profit</span><br>
+                    <span class="profit_Rallying">Rallying for good cause?</span>
+                    We'love to help
+                </a>
+
+               </div>
+
+                <div class="frequent_r">
+                   <h3 class="frequent_heading">Frequently Asked Questions</h3>
+
+                   <button class="faq">
+                       <span class="faq_question">
+                        Is your pricing model based on invoices or revenue?
+                       </span>
+
+                       <p class="faq_answer">
+                        Our default pricing model is based on revenue. But,if you believe invoice-based pricing suits your business better, let us know and we’ll be happy to accommodate it.
+                       </p>
+                   </button>
+
+                   <button class="faq">
+                    <span class="faq_question">
+                        What is counted as revenue?
+                    </span>
+
+                    <p class="faq_answer">
+                        he total value of invoices generated, excluding void invoices.
+                    </p>
+                </button>
+
+                <button class="faq">
+                    <span class="faq_question">
+                        Will I have to pay separately for multiple sites with Chargebee?
+                    </span>
+
+                    <p class="faq_answer">
+                        We do not charge extra for the additional sites you create, and the charges will only be based on the total revenue (or number of invoices) generated across all your sites.
+                    </p>
+                </button>
+
+                <button class="faq">
+                    <span class="faq_question">
+                        Do I get a sandbox (test environment)?
+                    </span>
+
+                    <p class="faq_answer">
+                        Absolutely. We provide a free TEST environment with every domain signed-up with us. You may use it to explore, develop & test before you go LIVE.
+                    </p>
+                </button>
+
+                <button class="faq">
+                    <span class="faq_question">
+                        Are there any cancellation charges?
+                    </span>
+
+                    <p class="faq_answer">
+                        No, we do not have cancellation charges. And there are no data lock-ins. You are free to cancel your account anytime. 
+                    </p>
+                </button>
+
+                <button class="faq">
+                    <span class="faq_question">
+                        Is EU VAT included in the pricing?
+                    </span>
+
+                    <p class="faq_answer">
+                        The Prices as applicable are exclusive of EU VAT to EU Merchants and shall be charged additionally for B2C merchants in accordance with EU VAT Rules.
+                    </p>
+                </button>
+
+                <button class="faq_read"><a href="#" class="faq_link"><strong>Read More &srarr;</strong></a></button>
+                 
+                 
+                </div>
+
+            </div>
+        </div>
+            <div class="frequent_footer">
+
+                <div class="frequent_line">
+                    <h2>Still unsure? Step Inside and See <br>
+                   What The Future Looks Like.</h2>
+                </div>
+
+                <div class="frequent_btn">
+                    <button class="frequent_button"> Shedule a Demo &srarr;</button>
+                </div>
+
+            </div>
+
+        <div id="foot">
+                <hr/>
+            <div class="comp_services display_flex">
+                <div>
+                    <div class="display_flex">
+                        <p>Product</p>
+                        <i class="fi-rr-angle-small-right arrow"></i>
+                    </div>
+                    <div id="subs">Subscription Management</div>
+                    <div id="rec_bill">Recurring Billing and Invoicing</div>
+                    <div id="rec_pay">Recurring Payments</div>
+                    <div id="acc">Accounting and Taxes</div>
+                    <div id="saas">SaaS Reporting</div>
+                    <div id="enter">Enterprise Billing</div>
+                    <div id="int">Integrations</div>
+                </div>
+                <div>
+                    <div class="display_flex">
+                        <p>Help & Support</p>
+                        <i class="fi-rr-angle-small-right"></i>
+                    </div>
+                    <div id="sec">Security</div>
+                    <div id="faq">FAQs</div>
+                    <div id="stat">Status</div>
+                    <div id="product_d">Product Documentation</div>
+                    <div id="api">API Documentation</div>
+                    <div id="support">Supported Payment Gateways</div>
+                    <div id="site">Sitemap</div>
+                </div>
+                <div>
+                    <div class="display_flex">
+                        <p>Resources</p>
+                        <i class="fi-rr-angle-small-right"></i>
+                    </div>
+                    <div id="blog">Blog</div>
+                    <div id="compare">Compare Payment Gateways</div>
+                    <div id="tackle">Tackling Payment Failures</div>
+                    <div id="enter_bill">Enterprise Billing Guide</div>
+                    <div id="web">Webinars</div>
+                    <div id="gloss">Glossaries</div>
+                </div>
+                <div>
+                    <div class="display_flex">
+                        <p>Company</p>
+                        <i class="fi-rr-angle-small-right"></i>
+                    </div>
+                    <div id="customers">Customers</div>
+                    <div id="partner">Partners</div>
+                    <div id="career">Careers</div>
+                    <div id="press">Press</div>
+                    <div id="terms">Terms</div>
+                    <div id="privacy">Privacy</div>
+                </div>
+            </div>
+            <div id="footer">
+                <div>
+                    <img class="logo" src="https://www.chargebee.com/static/resources/brand/chargebee-logo-black.svg" />
+                </div>
+                <div>
+                    <img class="social_logo" src="https://png.pngtree.com/element_our/sm/20180626/sm_5b32227feb591.jpg" />
+                    <img class="social_logo" src="https://cdn3.iconfinder.com/data/icons/unicons-vector-icons-pack/32/youtube-512.png" />
+                    <img class="social_logo" src="https://www.oogazone.com/wp-content/uploads/2019/02/top-black-twitter-clipart-image.jpg" />
+                    <img class="social_logo" src="https://i.pinimg.com/564x/b7/63/69/b763699fd1fa3bfb374442593ae642e1.jpg" />
+                </div>
+            </div>
+        </div>
+            
+    </main>
+    
+    <script src="landing_page.js"></script>
 </body>
 
 </html>
