@@ -83,6 +83,7 @@ html, body, #main_demo {
     padding-top: 1.5%;
     background-color: #f9f9f9;
     display: none;
+    z-index: +9999;
 }
 .dropdown_content > div{
     font-size: 14px;
@@ -105,9 +106,16 @@ html, body, #main_demo {
     display: none;
     padding-left: 10%;
     padding-top: 1.5%;
+    background-color: #f9f9f9;
 }
 .drop_sol > div { 
-    width: 200px;
+    width: 190px;
+}
+.drop_sol > div:nth-child(2) {
+    margin-left: -70px;
+}
+.drop_sol > div:nth-child(5) {
+    margin-left: 5px;
 }
 /* colored subscription CSS */
 .colored_sub {
