@@ -1,0 +1,20 @@
+.mainbox{
+    width:100%;
+    height:100%;
+    display: flex;
+    
+}
+
+.hader{
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    color: #4e5058;
+    padding-left: 10%;
+    padding-right: 10%
+    
+}
+.logo {
+    width: 110px;
+    height: 34px;
+}
