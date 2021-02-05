@@ -102,7 +102,7 @@ html, body, #main_demo {
     margin-left: -30px;
 }
 .header_dropdown_solutions {
-    /* display: none; */
+    display: none;
     padding-left: 10%;
     padding-top: 1.5%;
 }
