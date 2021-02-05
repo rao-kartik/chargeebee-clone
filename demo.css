@@ -1,20 +1,82 @@
-.box1{
+* {
+    box-sizing: border-box;
+    font-family: 'Sans';
+    text-decoration: none;
+}
+html, body, #main_demo {
+    padding: 0;
+    margin: 0;
+}
+
+.display_flex {
+    display: flex;
+}
+.display_grid {
+    display: grid;
+}
+.header {
     width: 100%;
-     height: 1000px;
-     background-color: #eaeaf4;
-     border: 2px;
-     float: left;
- }
- .rightnav{
-     float:right;
+    height: 50px;
+    font-size: 15px;
+    color: #4e5058;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #f6f9fbf5;
+    box-shadow: 0 200px 500px;
+}
+.header > div {
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.header > div:nth-child(1) {
+    margin-top: 13px;
+}
+.logo {
+    width: 110px;
+    height: 34px;
+}
+.login_demo {
+    flex-grow: 1;
+    flex-direction: row-reverse;
+}
+.login_demo > div:nth-child(2) {
+    margin-right: 20px;
+}
+.login_demo > div:nth-child(2) > div{
+    margin-right: 5px;
+}
+.login_demo > div:nth-child(2) > div:nth-child(2){
+    margin-right: 5px;
+}
+.schedule_orange {
+    background-color: #ff7846;
+    height: 36px;
+    width: 180px;
+    text-align: center;
+    justify-content: center;
+    margin-top: -10px;
+    color: white;
+    border-radius: 3px;
+}
+.schedule_orange i, .login_demo i {
+    margin-top: 10px;
+}
+.demo{
+    margin-top: 9px;
+    margin-right: 5px;
+}
+.mainbox{
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    width:25%;
+    height:350px;
+
+
+}
+.box3{
+    width:25%;
+    height:700px;
     
- }
- .rightnav>p{
-    text-align:center;
- }
- #img_1{
-     width: 150px;
-     height: 30px;
-     margin-left: 20px;
-     margin-top: 20px;
- }
+}

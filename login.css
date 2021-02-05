@@ -98,13 +98,13 @@
      border-radius: 4px;
  }
  .signup{
-     width: 100px;
-     height: 40px;
+     width: 400px;
+     height: 70px;
      background-color:#ff7846;
      border-radius: 4px;
      margin-left: 19px;
      color: white;
-    font-size: 18px;
+    font-size: 12px;
     text-align: center;
     padding-top: 10px;
     display: inline;
@@ -112,6 +112,8 @@
  }
  .forpass{
      display: inline;
+     margin-left:100px;
+     font-size:10px;
  }
  #h4{
      color: #7c6c75;
