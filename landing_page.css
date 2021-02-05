@@ -164,7 +164,9 @@ html, body, #main_demo {
     margin-left: 15px;
     margin-right: 15px;
 }
+
 /* Automate _text, Smarter_text, Streamline_txt */
+
 #data_analysis {
     width: 100%;
     height: 1800px;
@@ -586,7 +588,9 @@ html, body, #main_demo {
     margin-top: 22px;
     padding-left: 5px;
 }
+
 /* footer */
+
 #footer {
     margin-top: 99px;
     display: flex;
@@ -607,4 +611,37 @@ html, body, #main_demo {
     width: 30px;
     height: 30px;
     margin-left: 10px;
+}
+
+/* media queries */
+
+@media (max-width:992px) {
+    body {
+        max-width: 900px;
+    }
+    .colored_sub {
+        font-size: 36px;
+    }
+    #data_analysis {
+        max-width: 900px;
+        padding: 0;
+        height: auto;
+    }
+    .automate {
+        grid-template: "right"
+                    "left";
+        max-width: 500px;
+        border: 1px solid red;
+    }
+    .smarter {
+        grid-template: "left"
+                    "right";
+    }
+
+    #slant_purple_top {
+        top: 3435px;
+    }
+    #slant_blue_top {
+        top: 3435px;
+    }
 }

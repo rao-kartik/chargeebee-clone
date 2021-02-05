@@ -43,6 +43,320 @@ cust.addEventListener('mouseenter', function(){
     display_none(dropdown_sol);
 })
 
+// add padding to nsv_var on hover
+
+var over = document.querySelector("#over");
+over.addEventListener('mouseenter', function(){
+    over.style.padding = "0 0 0 5px"
+});
+over.addEventListener('mouseleave', function(){
+    over.style.padding = "0"
+});
+
+var creat = document.querySelector("#creat");
+creat.addEventListener('mouseenter', function(){
+    creat.style.padding = "0 0 0 5px"
+});
+creat.addEventListener('mouseleave', function(){
+    creat.style.padding = "0"
+});
+
+var prici = document.querySelector("#prici");
+prici.addEventListener('mouseenter', function(){
+    prici.style.padding = "0 0 0 5px"
+});
+prici.addEventListener('mouseleave', function(){
+    prici.style.padding = "0"
+});
+
+var hand = document.querySelector("#hand");
+hand.addEventListener('mouseenter', function(){
+    hand.style.padding = "0 0 0 5px"
+});
+hand.addEventListener('mouseleave', function(){
+    hand.style.padding = "0"
+});
+
+var cssp = document.querySelector("#cssp");
+cssp.addEventListener('mouseenter', function(){
+    cssp.style.padding = "0 0 0 5px"
+});
+cssp.addEventListener('mouseleave', function(){
+    cssp.style.padding = "0"
+});
+
+var ms = document.querySelector("#ms");
+ms.addEventListener('mouseenter', function(){
+    ms.style.padding = "0 0 0 5px"
+});
+ms.addEventListener('mouseleave', function(){
+    ms.style.padding = "0"
+});
+
+var ovr = document.querySelector("#ovr");
+ovr.addEventListener('mouseenter', function(){
+    ovr.style.padding = "0 0 0 5px"
+});
+ovr.addEventListener('mouseleave', function(){
+    ovr.style.padding = "0"
+});
+
+var ubb = document.querySelector("#ubb");
+ubb.addEventListener('mouseenter', function(){
+    ubb.style.padding = "0 0 0 5px"
+});
+ubb.addEventListener('mouseleave', function(){
+    ubb.style.padding = "0"
+});
+
+var ia = document.querySelector("#ia");
+ia.addEventListener('mouseenter', function(){
+    ia.style.padding = "0 0 0 5px"
+});
+ia.addEventListener('mouseleave', function(){
+    ia.style.padding = "0"
+});
+
+var quot = document.querySelector("#quot");
+quot.addEventListener('mouseenter', function(){
+    quot.style.padding = "0 0 0 5px"
+});
+quot.addEventListener('mouseleave', function(){
+    quot.style.padding = "0"
+});
+
+var pror = document.querySelector("#pror");
+pror.addEventListener('mouseenter', function(){
+    pror.style.padding = "0 0 0 5px"
+});
+pror.addEventListener('mouseleave', function(){
+    pror.style.padding = "0"
+});
+
+var ovrview = document.querySelector("#ovrview");
+ovrview.addEventListener('mouseenter', function(){
+    ovrview.style.padding = "0 0 0 5px"
+});
+ovrview.addEventListener('mouseleave', function(){
+    ovrview.style.padding = "0"
+});
+
+var mpt = document.querySelector("#mpt");
+mpt.addEventListener('mouseenter', function(){
+    mpt.style.padding = "0 0 0 5px"
+});
+mpt.addEventListener('mouseleave', function(){
+    mpt.style.padding = "0"
+});
+
+var mpg = document.querySelector("#mpg");
+mpg.addEventListener('mouseenter', function(){
+    mpg.style.padding = "0 0 0 5px"
+});
+mpg.addEventListener('mouseleave', function(){
+    mpg.style.padding = "0"
+});
+
+var sd = document.querySelector("#sd");
+sd.addEventListener('mouseenter', function(){
+    sd.style.padding = "0 0 0 5px"
+});
+sd.addEventListener('mouseleave', function(){
+    sd.style.padding = "0"
+});
+
+var cm = document.querySelector("#cm");
+cm.addEventListener('mouseenter', function(){
+    cm.style.padding = "0 0 0 5px"
+});
+cm.addEventListener('mouseleave', function(){
+    cm.style.padding = "0"
+});
+
+var ovrv = document.querySelector("#ovrv");
+ovrv.addEventListener('mouseenter', function(){
+    ovrv.style.padding = "0 0 0 5px"
+});
+ovrv.addEventListener('mouseleave', function(){
+    ovrv.style.padding = "0"
+});
+
+var rr = document.querySelector("#rr");
+rr.addEventListener('mouseenter', function(){
+    rr.style.padding = "0 0 0 5px"
+});
+rr.addEventListener('mouseleave', function(){
+    rr.style.padding = "0"
+});
+
+var mst = document.querySelector("#mst");
+mst.addEventListener('mouseenter', function(){
+    mst.style.padding = "0 0 0 5px"
+});
+mst.addEventListener('mouseleave', function(){
+    mst.style.padding = "0"
+});
+
+var ocr = document.querySelector("#ocr");
+ocr.addEventListener('mouseenter', function(){
+    ocr.style.padding = "0 0 0 5px"
+});
+ocr.addEventListener('mouseleave', function(){
+    ocr.style.padding = "0"
+});
+
+var ovrvw = document.querySelector("#ovrvw");
+ovrvw.addEventListener('mouseenter', function(){
+    ovrvw.style.padding = "0 0 0 5px"
+});
+ovrvw.addEventListener('mouseleave', function(){
+    ovrvw.style.padding = "0"
+});
+
+var drr = document.querySelector("#drr");
+drr.addEventListener('mouseenter', function(){
+    drr.style.padding = "0 0 0 5px"
+});
+drr.addEventListener('mouseleave', function(){
+    drr.style.padding = "0"
+});
+
+var h_fin = document.querySelector("#h_fin");
+h_fin.addEventListener('mouseenter', function(){
+    h_fin.style.padding = "0 0 0 5px"
+});
+h_fin.addEventListener('mouseleave', function(){
+    h_fin.style.padding = "0"
+});
+
+var h_sale = document.querySelector("#h_sale");
+h_sale.addEventListener('mouseenter', function(){
+    h_sale.style.padding = "0 0 0 5px"
+});
+h_sale.addEventListener('mouseleave', function(){
+    h_sale.style.padding = "0"
+});
+
+var h_rev = document.querySelector("#h_rev");
+h_rev.addEventListener('mouseenter', function(){
+    h_rev.style.padding = "0 0 0 5px"
+});
+h_rev.addEventListener('mouseleave', function(){
+    h_rev.style.padding = "0"
+});
+
+var h_b3b = document.querySelector("#h_b3b");
+h_b3b.addEventListener('mouseenter', function(){
+    h_b3b.style.padding = "0 0 0 5px"
+});
+h_b3b.addEventListener('mouseleave', function(){
+    h_b3b.style.padding = "0"
+});
+
+var h_ecom = document.querySelector("#h_ecom");
+h_ecom.addEventListener('mouseenter', function(){
+    h_ecom.style.padding = "0 0 0 5px"
+});
+h_ecom.addEventListener('mouseleave', function(){
+    h_ecom.style.padding = "0"
+});
+
+var h_elrn = document.querySelector("#h_elrn");
+h_elrn.addEventListener('mouseenter', function(){
+    h_elrn.style.padding = "0 0 0 5px"
+});
+h_elrn.addEventListener('mouseleave', function(){
+    h_elrn.style.padding = "0"
+});
+
+var h_pub = document.querySelector("#h_pub");
+h_pub.addEventListener('mouseenter', function(){
+    h_pub.style.padding = "0 0 0 5px"
+});
+h_pub.addEventListener('mouseleave', function(){
+    h_pub.style.padding = "0"
+});
+
+var h_ronp = document.querySelector("#h_ronp");
+h_ronp.addEventListener('mouseenter', function(){
+    h_ronp.style.padding = "0 0 0 5px"
+});
+h_ronp.addEventListener('mouseleave', function(){
+    h_ronp.style.padding = "0"
+});
+
+var h_eg = document.querySelector("#h_eg");
+h_eg.addEventListener('mouseenter', function(){
+    h_eg.style.padding = "0 0 0 5px"
+});
+h_eg.addEventListener('mouseleave', function(){
+    h_eg.style.padding = "0"
+});
+
+var h_mu = document.querySelector("#h_mu");
+h_mu.addEventListener('mouseenter', function(){
+    h_mu.style.padding = "0 0 0 5px"
+});
+h_mu.addEventListener('mouseleave', function(){
+    h_mu.style.padding = "0"
+});
+
+var h_sts = document.querySelector("#h_sts");
+h_sts.addEventListener('mouseenter', function(){
+    h_sts.style.padding = "0 0 0 5px"
+});
+h_sts.addEventListener('mouseleave', function(){
+    h_sts.style.padding = "0"
+});
+
+var h_sup = document.querySelector("#h_sup");
+h_sup.addEventListener('mouseenter', function(){
+    h_sup.style.padding = "0 0 0 5px"
+});
+h_sup.addEventListener('mouseleave', function(){
+    h_sup.style.padding = "0"
+});
+
+var h_sclup = document.querySelector("#h_sclup");
+h_sclup.addEventListener('mouseenter', function(){
+    h_sclup.style.padding = "0 0 0 5px"
+});
+h_sclup.addEventListener('mouseleave', function(){
+    h_sclup.style.padding = "0"
+});
+
+var h_entrp = document.querySelector("#h_entrp");
+h_entrp.addEventListener('mouseenter', function(){
+    h_entrp.style.padding = "0 0 0 5px"
+});
+h_entrp.addEventListener('mouseleave', function(){
+    h_entrp.style.padding = "0"
+});
+
+var h_ss = document.querySelector("#h_ss");
+h_ss.addEventListener('mouseenter', function(){
+    h_ss.style.padding = "0 0 0 5px"
+});
+h_ss.addEventListener('mouseleave', function(){
+    h_ss.style.padding = "0"
+});
+
+var h_sd = document.querySelector("#h_sd");
+h_sd.addEventListener('mouseenter', function(){
+    h_sd.style.padding = "0 0 0 5px"
+});
+h_sd.addEventListener('mouseleave', function(){
+    h_sd.style.padding = "0"
+});
+
+var h_eur = document.querySelector("#h_eur");
+h_eur.addEventListener('mouseenter', function(){
+    h_eur.style.padding = "0 0 0 5px"
+});
+h_eur.addEventListener('mouseleave', function(){
+    h_eur.style.padding = "0"
+});
+
 // services DOM
 
 var rthink_btn = document.getElementById("rethink_btn");
