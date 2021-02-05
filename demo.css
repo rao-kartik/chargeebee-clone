@@ -1,20 +1,20 @@
-.mainbox{
-    width:100%;
-    height:100%;
-    display: flex;
-    
-}
-
-.hader{
+.box1{
     width: 100%;
-    height: 50px;
-    font-size: 15px;
-    color: #4e5058;
-    padding-left: 10%;
-    padding-right: 10%
+     height: 1000px;
+     background-color: #eaeaf4;
+     border: 2px;
+     float: left;
+ }
+ .rightnav{
+     float:right;
     
-}
-.logo {
-    width: 110px;
-    height: 34px;
-}
+ }
+ .rightnav>p{
+    text-align:center;
+ }
+ #img_1{
+     width: 150px;
+     height: 30px;
+     margin-left: 20px;
+     margin-top: 20px;
+ }
