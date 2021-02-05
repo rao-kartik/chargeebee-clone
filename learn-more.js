@@ -1,37 +1,36 @@
-var rethink_p = document.getElementById("rethink_pricing");
-var automate_f = document.getElementById("automate_finops");
-var g_global = document.getElementById("go_global");
-var rethink_bttn = document.getElementById("rethink_btn");
-var automate_bttn = document.getElementById("automate_btn");
-var global_bttn = document.getElementById("global_btn");
+learn_more
+var company_centric_details = document.getElementById('company_centric_details');
+var product = document.getElementById('product');
+product.addEventListener('mouseenter', function() { extend_arrow(1)});
+product.addEventListener('mouseout', function() {shrink_arrow(1)} );
 
-function rethink() {
-    if (rethink_pricing.style.display == "none"){
-        rethink_pricing.style.display = "block"
-        g_global.style.display == "none"
-        automate_f.style.display == "none"
-    }
-    else {
-        rethink_p.style.display == "none";
-    }
+var help = document.getElementById('help');
+help.addEventListener('mouseenter', function() { extend_arrow(2)});
+help.addEventListener('mouseout', function() {shrink_arrow(2)} );
+
+var resources = document.getElementById('resources');
+resources.addEventListener('mouseenter', function() { extend_arrow(3)});
+resources.addEventListener('mouseout', function() {shrink_arrow(3)} );
+
+var company = document.getElementById('company');
+company.addEventListener('mouseenter', function() { extend_arrow(4)});
+company.addEventListener('mouseout', function() {shrink_arrow(4)} );
+
+function extend_arrow(index) {
+    var normal_arrow_name = "arrow_right_" + index;
+    var long_arrow_name = "long_arrow_right_" + index;
+    var tags = company_centric_details.getElementsByTagName('i');
+    tags[index - 1].classList.remove('arrow_right');
+    tags[index - 1].classList.remove(normal_arrow_name);
+    tags[index - 1].classList.add('long_arrow_right');
+    tags[index - 1].classList.add(long_arrow_name);
 }
-function automate() {
-    if (automate_f.style.display == "none"){
-        rethink_p.style.display == "none";
-        g_global.style.display == "none";
-        automate_f.style.display = "block";
-    }
+function shrink_arrow(index) {
+    var normal_arrow_name = "arrow_right_" + index;
+    var long_arrow_name = "long_arrow_right_" + index;
+    var tags = company_centric_details.getElementsByTagName('i');
+    tags[index - 1].classList.remove('long_arrow_right');
+    tags[index - 1].classList.remove(long_arrow_name);
+    tags[index - 1].classList.add('arrow_right');
+    tags[index - 1].classList.add(normal_arrow_name);
 }
-function global() {
-    if (go_global.style.display == "none"){
-        rethink_p.style.display == "none";
-        automate_f.style.display == "none";
-        g_global.style.display == "block";
-    }
-    else {
-        go_global.style.display == "none";
-    }
-}
-rethink_bttn.addEventListener("click", rethink);
-automate_bttn.addEventListener("click", automate);
-global_bttn.addEventListener("click", global);
