@@ -242,7 +242,6 @@ html, body, #main_demo {
 /* back_blue */
 #purple_main {
     width: 100%;
-    height: 2450px;
 }
 #slant_purple_top {
     width: 100%;
@@ -438,10 +437,12 @@ html, body, #main_demo {
     background-color: white;
     margin: auto;
 }
+
 /* Reviews */
+
 #reviews {
     width: 100%;
-    height: 350px;
+    height: 200px;
 }
 .review {
     max-width: 1050px;
@@ -517,9 +518,6 @@ html, body, #main_demo {
 .txt_val {
     background-color: #bc7e0f;
 }
-/* #rethink_pricing {
-    display: none;
-} */
 #automate_finops {
     position: absolute;
     top: 4600px;
@@ -532,7 +530,9 @@ html, body, #main_demo {
     left: 23%;
     display: none;
 }
+
 /* bottom head */
+
 .bottom_head {
     padding-top: 200px;
     width: 1400px;
@@ -559,7 +559,9 @@ html, body, #main_demo {
     margin-top: 7px;
     padding-left: 5px;
 }
+
 /* Services */
+
 .comp_services {
     width: 80%;
     margin: auto;

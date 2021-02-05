@@ -67,6 +67,7 @@ rthink_btn.addEventListener('click', function(){
     display_block(lin_rt);
     display_none(lin_auto);
     display_none(lin_gbl);
+    rethink.style.display = "flex";
 })
 auto_btn.addEventListener('click', function(){
     display_none(rethink);
@@ -78,6 +79,7 @@ auto_btn.addEventListener('click', function(){
     display_none(lin_rt);
     display_block(lin_auto);
     display_none(lin_gbl);
+    automate.style.display = "flex"
 })
 global_btn.addEventListener('click', function(){
     display_none(rethink);
@@ -89,6 +91,7 @@ global_btn.addEventListener('click', function(){
     display_none(lin_rt);
     display_none(lin_auto);
     display_block(lin_gbl);
+    global.style.display = "flex"
 })
 
 // stretch arrow
