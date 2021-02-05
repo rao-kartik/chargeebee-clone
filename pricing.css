@@ -34,24 +34,17 @@ line-height: 4.5rem;
 
 }
 
-
-.heading_prime:active {
-    color:black;
-}
-
 .heading_secondary{
 font-size: 2.5rem;
 font-weight: 600;
 text-align: center;
 }
 
-.heading_fourth{
 
-} 
 
 
 /* Header button*/
-.top_toggle{
+.top_toggle {
     position: relative;
 }
 
@@ -66,15 +59,21 @@ text-align: center;
     border: none;
     font-weight:400;
     
+    
+}
+.top_toggle_button:focus{
+    outline: none ;
+    color: #6f43ae;
 }
 
-.top_toogle_currency{
+.top_togle_currency{
     margin-left: 1.5rem;
     border: none;
     font-weight:400;
 }
 
 .top_currency_buttons:link, .top_currency_buttons:active{
+    outline:none;
     color: #6f43ae;
 }
 
@@ -83,7 +82,7 @@ text-align: center;
     color: #6f43ae;
 }
 
-.top_toogle_currency{
+.top_togle_currency{
  outline : none;
  color: #6f43ae;
 }
@@ -100,7 +99,7 @@ text-align: center;
     margin-bottom: 20rem;
     gap: 3rem 3rem;
     grid-template-columns: 23% 1fr 1fr 1fr;
-    grid-template-rows: 50rem; 
+    grid-template-rows: 62rem; 
 
 }
 
@@ -108,13 +107,13 @@ text-align: center;
 
 .hero_col1{
     position: relative;
-   
     
 }
 
 .hero_col1 span {
     position: absolute;
-    top: 25%
+    top: 25%;
+    
 }
 
 .highlight_unsure {
@@ -132,7 +131,7 @@ text-align: center;
 }
 
 .hero_col4{
-    background-color:  thistle;
+    
 }
 
 div.hero_col1 p{
@@ -154,8 +153,10 @@ div.hero_col1 a{
     font-size: 2rem;
     color: #6f43ae;
     margin-bottom: 1.5rem;
+    padding-left: 2rem;
 
 }
+
 .hero_popular{
     display: inline-block;
     position: absolute;
@@ -168,7 +169,6 @@ div.hero_col1 a{
     
 
 }
-
 
 .price_rate
 {
@@ -195,12 +195,14 @@ div.hero_col1 a{
     border-radius: .5rem;
     background-color: #6f43ae; 
     font-size: 1.6rem;  
-    margin-top: 2rem    ;
+    margin-top: 2rem;
 
 }
+
 .hero_offer_discription{
     color: rgb(0, 0 , 0, 0.6);
     margin-top: 6rem;
+    margin-bottom: 1rem;
 }
 
 .hero_list{
@@ -210,59 +212,228 @@ div.hero_col1 a{
 .list_item{
     margin-bottom: 1rem;
 }
+
 .hero_bold_text{
     display: inline-block;
     font-size: 1.5rem;
     margin-top: 1.8rem;
     
 }
+
 .hero_list2 {
     margin-left: 1.5rem;
     margin-top: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.hero_compare{
+    font-size: 1.5rem;
+    margin-top: 15rem;
+    color: blue;
+    text-decoration: none; 
+}
+
+.hero_offer_discription3{
+    color: rgb(0, 0 , 0, 0.6);
+    margin-top: 6rem;
+    margin-bottom: 2.5rem;
+}
+
+.hero_enterpise_footer{
+    display: inline-block;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.hero_col_learn{
+    font-size: 1.5rem;
+    margin-top: 10rem;
+    color: blue;
+    text-decoration: none;
 }
 
 
 
-
-
+/* middle page styling */
 
 
 .middle{
     width: 100%;
     background: #eef0f2;
+    height: 110rem;
     display: flex;
     flex-direction: row;
-    margin-top: 5rem;
+    margin-top: 30rem;
+  
 
 }
 .middle_S{
     width: 80%;
     display: flex;
-    border: 1px solid green;
     margin: auto;
-    
+   
 }
-.middle_l, .middle_r{
+
+.middle_l{
     display: flex;
     margin: 10px;
     padding: 10px;
     width: 60rem;
     flex-wrap: wrap;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
+    margin-top: 10rem;
     
 }
+.middle_r{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    width: 50rem;
+    flex-wrap: wrap;
+    /* border: 2px solid blue; */
+    margin-top: 10rem;
+    box-shadow: 0 .5rem  1.5rem rgba(0, 0, 0, 0.438);
+    
+}
+
+
+
 .middle_quote {
+    position: relative;
     padding: 10px;
     float: left;
 }
+.quote_coma{
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    width: 30rem;
+    
+}
+
+.quote_coma::before{
+   
+    content: '';
+    background: url(https://webstatic.chargebee.com/assets/web/352/images/icon/quote/cb-quote.svg) no-repeat;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-size: contain;
+    opacity: .4;
+    left: 1rem;
+    top: .5rem;
+    
+}
+
 .middle_figure img{
 max-width: 60px;
 border-radius: 50%;
-margin: 0 auto;
+margin-left: 10rem;
+margin-top:5rem ;
+text-align: center;
 }
-a { 
-    text-decoration: none; 
-} 
+.middle_figure_img_text{
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-left: 7rem;
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+}
+
+.middle_footer_logo{
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+.middle_footer{
+    position: relative;
+    border-top: 1px solid black;
+}
+
+.middle_fotter_logo_big{
+    position: relative;
+    display: inline-block;
+    margin-top: 4rem;
+    margin-left: -5rem;   
+}
+
+.middle_footer_para{
+    position: absolute;
+    bottom: -115rem;
+    width: 30rem;
+    font-size: 1.6rem;
+    left: 45rem;
+}
+
+/* middle form styling*/
+
+.middle_r {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 5rem;
+    font-size: 1.5rem;
+      
+}
+
+.Form_star_red{
+    color: red;
+}
+
+.middle_form{
+    font-weight: 600;
+}
+.form_msg{
+    font-size: 1.2rem;
+    color: rgb(0, 0 , 0, 0.6);
+    margin-top: 8rem;
+    
+}
+
+.form_privacy{
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.form_shedule{
+    color: white;
+    background-color: #6f43ae;
+    border-radius: .5rem;
+    margin-top: 4rem;
+    width: 25rem;
+    height: 5rem;
+    font-size: 2rem;
+
+}
+
+/* ask question page style*/
+
+.ask_question {
+    background-color: greenyellow;
+    padding: relative;
+    width: 100%;
+    height: 70rem; 
+
+}
+.aeroplane{
+    width: 60rem;
+    height: 40rem;
+    background-color: burlywood;
+   
+ 
+
+}
+
+
+.top_left_logo:after {
+    content: '';
+    border: 18px solid transparent;
+    border-right-color: #fff;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
 
 
 
