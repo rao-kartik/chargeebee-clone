@@ -453,6 +453,7 @@ html, body, #main_demo {
     position: absolute;
     top: 4600px;
     left: 23%;
+    box-shadow: 0.05rem 0.05rem rgba(0, 0, 0, 0.315);
 }
 .review_read {
     color: white;
