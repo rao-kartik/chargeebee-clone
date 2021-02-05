@@ -99,7 +99,7 @@ text-align: center;
     margin-bottom: 20rem;
     gap: 3rem 3rem;
     grid-template-columns: 23% 1fr 1fr 1fr;
-    grid-template-rows: 50rem; 
+    grid-template-rows: 62rem; 
 
 }
 
@@ -170,7 +170,6 @@ div.hero_col1 a{
 
 }
 
-
 .price_rate
 {
     font-size: 2rem;
@@ -196,9 +195,10 @@ div.hero_col1 a{
     border-radius: .5rem;
     background-color: #6f43ae; 
     font-size: 1.6rem;  
-    margin-top: 2rem    ;
+    margin-top: 2rem;
 
 }
+
 .hero_offer_discription{
     color: rgb(0, 0 , 0, 0.6);
     margin-top: 6rem;
@@ -212,12 +212,14 @@ div.hero_col1 a{
 .list_item{
     margin-bottom: 1rem;
 }
+
 .hero_bold_text{
     display: inline-block;
     font-size: 1.5rem;
     margin-top: 1.8rem;
     
 }
+
 .hero_list2 {
     margin-left: 1.5rem;
     margin-top: 2.5rem;
@@ -242,44 +244,60 @@ div.hero_col1 a{
     margin-top: 1.5rem;
     margin-bottom: 3rem;
 }
+
 .hero_col_learn{
     font-size: 1.5rem;
     margin-top: 10rem;
     color: blue;
     text-decoration: none;
-
 }
 
 
 
-
+/* middle page styling */
 
 
 .middle{
     width: 100%;
     background: #eef0f2;
+    height: 110rem;
     display: flex;
     flex-direction: row;
-    margin-top: 5rem;
+    margin-top: 30rem;
+  
 
 }
 .middle_S{
     width: 80%;
     display: flex;
-    border: 1px solid green;
     margin: auto;
    
 }
 
-.middle_l, .middle_r{
+.middle_l{
     display: flex;
     margin: 10px;
     padding: 10px;
     width: 60rem;
     flex-wrap: wrap;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
+    margin-top: 10rem;
     
 }
+.middle_r{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    width: 50rem;
+    flex-wrap: wrap;
+    /* border: 2px solid blue; */
+    margin-top: 10rem;
+    box-shadow: 0 .5rem  1.5rem rgba(0, 0, 0, 0.438);
+    
+}
+
+
+
 .middle_quote {
     position: relative;
     padding: 10px;
@@ -335,23 +353,87 @@ text-align: center;
 .middle_fotter_logo_big{
     position: relative;
     display: inline-block;
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-left: -5rem;   
 }
 
 .middle_footer_para{
     position: absolute;
-    bottom: -60rem;
+    bottom: -115rem;
     width: 30rem;
     font-size: 1.6rem;
     left: 45rem;
 }
 
+/* middle form styling*/
+
 .middle_r {
     background-color: white;
     border-radius: 1rem;
+    padding: 5rem;
+    font-size: 1.5rem;
+      
+}
+
+.Form_star_red{
+    color: red;
+}
+
+.middle_form{
+    font-weight: 600;
+}
+.form_msg{
+    font-size: 1.2rem;
+    color: rgb(0, 0 , 0, 0.6);
+    margin-top: 8rem;
     
 }
+
+.form_privacy{
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.form_shedule{
+    color: white;
+    background-color: #6f43ae;
+    border-radius: .5rem;
+    margin-top: 4rem;
+    width: 25rem;
+    height: 5rem;
+    font-size: 2rem;
+
+}
+
+/* ask question page style*/
+
+.ask_question {
+    background-color: greenyellow;
+    padding: relative;
+    width: 100%;
+    height: 70rem; 
+
+}
+.aeroplane{
+    width: 60rem;
+    height: 40rem;
+    background-color: burlywood;
+   
+ 
+
+}
+
+
+.top_left_logo:after {
+    content: '';
+    border: 18px solid transparent;
+    border-right-color: #fff;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
 
 
 
