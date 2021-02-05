@@ -1,44 +1,17 @@
 body {
     margin: 0%;
 }
-.arrow {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-  }
-.arrow_line {
-    border: solid black;
-    border-width: 2px 0px 0px 0px;
-    display: inline-block;
-    padding: 3px;
+a {
+    text-decoration: none;
+    color: blue;
 }
-.right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-  }
-  
-  .left {
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-  }
-  
-  .up {
-    transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);
-  }
-  
-  .down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-  }
 #layout {
     display: grid;
     grid-gap: 0%;
 }
-#layout > div {
-    /*border: 1px solid black;*/
-}
+/*#layout > div {
+    border: 1px solid black;
+}*/
 #nav_bar {
     background-color: #e2e9fb;
     border: 0px;
@@ -242,13 +215,14 @@ body {
 }
 #company_centric_details {
     border: 1px solid black;
-    height: 400px;
+    height: 310px;
     width: 1300px;
-    margin : auto;
+    margin-left: 220px;
+    margin-top: 60px;
 }
 #company_centric_details > div {
-    width: 300px;
-    height: 350px;
+    width: 250px;
+    height: 300px;
     border: 1px solid black;
     float: left;
     margin: 10px;
@@ -258,6 +232,94 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
-/*#company_centric_details > div:nth-child(1) :hover {
+/*Working with animated arrow feature*/
+.arrow_right,
+.arrow_left,
+.long_arrow_right,
+.long_arrow_left{
+  display: block;
+  margin:0px;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+  float: right;
+  transition: 0.5s;
+}
+.arrow_right_1 {
+    margin-right: 169.5px;
+    margin-top: 6px;
+}
+.long_arrow_right_1 {
+    margin-right: 150px;
+    margin-top: 6px;
+}
+.arrow_right_2 {
+    margin-right: 84.6px;
+    margin-top: 6px;
+}
+.long_arrow_right_2 {
+    margin-right: 65.1px;
+    margin-top: 6px;
+}
+.arrow_right_3 {
+    margin-right: 151.6px;
+    margin-top: 6px;
+}
+.long_arrow_right_3 {
+    margin-right: 132.1px;
+    margin-top: 6px;
+}
+.arrow_right_4 {
+    margin-right: 154.6px;
+    margin-top: 6px;
+}
+.long_arrow_right_4 {
+    margin-right: 135.1px;
+    margin-top: 6px;
+}
+.arrow_right,
+.long_arrow_right{
+ transform: rotate(135deg);
+}
 
-}*/
+.arrow_left,
+.long_arrow_left{
+ transform: rotate(-45deg);
+}
+.long_arrow_right::after,
+.long_arrow_left::after{
+  content: "";
+  display: block;
+  width: 2px;
+  height: 30px;
+  background-color: black;
+  transform: rotate(-45deg) translate(10px, 4px);
+  left: 0;
+  top: 0;
+}
+.sub_headers {
+    transition: 0.3s;
+}
+.sub_headers:hover {
+    margin-left: 5px;
+}
+#footer{
+    background-color: white;
+    border: 1px solid red;
+    background-image: url('https://www.chargebee.com/static/resources/brand/chargebee-logo-black.svg');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    height: 80px;
+    width: 1100px;
+    margin : auto;
+    margin-top: 80px;
+    background-position: 2% 20%;
+}
+.footer_pngs {
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    margin: 10px;
+    float: right;
+}
