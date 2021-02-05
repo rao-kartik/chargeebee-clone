@@ -134,6 +134,9 @@ html, body, #main_demo {
     font-size: 15px;
     line-height: 10px;
 }
+.colored_sub > p:nth-child(3) {
+    margin-left: 8%;
+}
 .sch_signup_btn {
     font-size: 20px;
     justify-content: center;
