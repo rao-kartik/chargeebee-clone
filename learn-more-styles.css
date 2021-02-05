@@ -1,5 +1,6 @@
 body {
     margin: 0%;
+    font-family: 'Open Sans', sans-serif;
 }
 a {
     text-decoration: none;
@@ -32,9 +33,6 @@ a {
     display: grid;
     grid-gap: 0%;
 }
-/*#layout > div {
-    border: 1px solid black;
-}*/
 #nav_bar {
     background-color: #e2e9fb;
     border: 0px;
@@ -74,8 +72,77 @@ a {
     border: 0px;
     height: 500px;
 }
+.split_intro {
+    height : 400px;
+    width: 1100px;
+    float: left;
+    margin-top: 20px;
+}
+.reduce_width {
+    width : 100px;
+    margin-left: 10px;
+}
+.reduce_width > div {
+    width: 90px;
+    height: 90px;
+    margin-top: 180px;
+    font-size: 52px;
+    font-weight: bold;
+    color: #193165;
+    opacity: 0.6;
+    transition: 0.7s;
+}
+.reduce_width > div:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+#main_headings_and_button > div {
+    width: 600px;
+    height: 120px;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+#main_headings_and_button  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color:#112653;
+}
+#main_headings_and_button p {
+    text-align: center;
+    font-size: 17px;
+}
+#main_headings_and_button div:nth-child(2), #main_headings_and_button div:nth-child(3)  {
+    margin-top: 0px;
+}
+#blue_button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+    width: 200px;
+    background-color: #112653;
+    color: white;
+    margin-left: 70px;
+    font-weight: bold;
+    font-size: 16px;
+    height: 50px;
+    border-radius: 5px;
+    transition : 0.7s;
+}
+#blue_border_button {
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #112653;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #112653;
+    transition: 0.7s;
+}
+#blue_button > span:hover , #blue_border_button > span:hover {
+    margin-left: 10px;
+}
 #responsive_tags {
-    height: 100px;
+    height: 80px;
     width: 1136px;
     /*border: 1px solid black;*/
     border-radius: 10px;
@@ -85,7 +152,7 @@ a {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #responsive_tags  p{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left : 20px;
     color: orangered;
     font-size: 18px;
@@ -103,9 +170,9 @@ a {
 #responsive_tags>div:hover:after {
     content: "";
     display: inline-block;
-    width: 60px;
+    width: 40px;
     border-bottom: 3px solid blue;
-    margin-top : 20px;
+    margin-left: 18px;
 }
 
 #tag_description {
