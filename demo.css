@@ -21,7 +21,7 @@ html, body, #main_demo {
     color: #4e5058;
     padding-left: 10%;
     padding-right: 10%;
-    background-color: #f6f9fbf5;
+    background-color:white;
     box-shadow: 0 200px 500px;
 }
 .header > div {
@@ -68,15 +68,78 @@ html, body, #main_demo {
 .mainbox{
     display: flex;
     justify-content: center;
+    background-color:#ffffff;
 }
 .box1{
-    width:25%;
+    width:280px;
     height:350px;
-
-
+    margin-top:60px;
+    margin-right:30px;
 }
-.box3{
-    width:25%;
-    height:700px;
+.b1h{
+    font-family: var(--ff_base);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #242438;
     
+    
+}
+.b1p{
+    margin-top: 50px;
+    font-weight: 100;
+   
+}
+.middle_r{
+    
+    height: 450px;
+    margin: 10px;
+    padding:10 px;
+    width: 300px;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    box-shadow: 3px 3px 3px 3px gainsboro;
+    border: solid 1px white;
+    border-radius:5px;
+}
+
+.Form_star_red{
+    color: red;
+}
+.middle_form{
+   padding-left:25px;
+   padding-top: 25px;
+   font-size: 10px;
+   font-weight: bold;
+}
+.form_msg{
+    font-weight: 600;
+   
+}
+#FName,#Email, #name {
+    height: 22px;
+    width: 210px;
+}
+#Phone {
+   height:48px;
+   width:210px;
+   
+}
+#isdcode
+{
+  height:22pxpx; 
+  width: 210px;
+}
+.form_privacy{
+  font-size: 20px;
+  text-decoration:none;
+}
+.form_shedule{
+    color: white;
+    background-color: #3a008c;
+    border-radius:8px;
+    margin-top: 18px;
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
 }
