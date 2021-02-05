@@ -1,3 +1,4 @@
+learn_more
 var company_centric_details = document.getElementById('company_centric_details');
 var product = document.getElementById('product');
 product.addEventListener('mouseenter', function() { extend_arrow(1)});
@@ -33,4 +34,3 @@ function shrink_arrow(index) {
     tags[index - 1].classList.add('arrow_right');
     tags[index - 1].classList.add(normal_arrow_name);
 }
-
