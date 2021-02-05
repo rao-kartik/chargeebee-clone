@@ -16,22 +16,10 @@
 </head>
 
 <body>
-    <nav></nav>
+    <nav> </nav>
 
     <header id="maintop">
-        <div class="top_toggle">
-            <div class="top_currency_buttons">
-                <button class="top_toggle_button paragraph">Annual</button>
-                <button class="top_toggle_button paragraph">Monthly</button>
-
-                <select name="currency" class="top_togle_currency paragraph">
-                    <option value="USD">USD</option>
-                    <option value="EUR">EUR</option>
-                    <option value="INR">INR</option>
-                    <option value="INR">GBP</option>
-                </select>
-            </div>
-        </div>
+        
 
         <div class="hero_area">
 
@@ -55,7 +43,8 @@
 
                 <div class="price"></div>
                 <p class="price_rate"> USD
-                    <span class="price_value">249</span>/mo
+                    <span class="price_value">249</span>/mo<br>
+                    <span style="color: blue; font-size: 1.4rem;">billed annually</span>
                 </p>
 
                 <p class="price_rate2">
@@ -91,7 +80,9 @@
 
                 <div class="price"></div>
                 <p class="price_rate"> USD
-                    <span class="price_value">549</span>/mo
+                    <span class="price_value">549</span>/mo <br>
+                    <span style="color: blue; font-size: 1.4rem;">billed annually</span>
+
                 </p>
 
                 <p class="price_rate2">
@@ -125,19 +116,34 @@
 
             <div class="hero_col4">
 
+                <div class="top_toggle">
+                    <div class="top_currency_buttons">
+                        <button class="top_toggle_button paragraph" id="annualButton">Annual</button>
+                        
+                        <button class="top_toggle_button paragraph" id="monthlyButton">Monthly</button>
+        
+                        <select name="currency" class="top_togle_currency paragraph">
+                            <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="INR">INR</option>
+                            <option value="INR">GBP</option>
+                        </select>
+                    </div>
+                </div>
+
 
                 <span class="hero_top_heading"> Enterprise </span>
 
 
                 <div class="price"></div>
-                <p class="price_rate"> Custom </p>
+                <p class="price_rate u-margin-bottom"> Custom </p>
 
 
                 <p class="price_rate2">
                     Talk to our experts and get tailored pricing for your business.
                 </p>
 
-                <button class="btn_1">Get Started now &srarr;</button>
+                <button class="btn_2">Talk to Sales&srarr;</button>
 
                 </span>
                 <p class="hero_offer_discription3 paragraph_2">
@@ -180,7 +186,7 @@
                                 MakeSpace</strong></p>
                     </div>
 
-                    <div class="midele_footer">
+                    <div class="middle_footer">
                         <span class="middle_footer_logo"><img
                                 src="https://webstatic.chargebee.com/assets/web/314/images/case-study/getaccept/ga-logo-black.png"
                                 alt="" width="110px" height="30px"></span>
@@ -221,9 +227,9 @@
                             
 
                             <select name="country" id="Phone">
-                                <option value="India">IND</option>
+                                <option value="India">IND (भारत)</option>
                                 <option value="Englang">Eng</option> &nbsp;&nbsp;
-                                
+                                <option value="Canada">Can</option> 
                             </select>
                             <input type="text" id="isdcode" placeholder="+91"><br><br>
 
@@ -238,22 +244,15 @@
                             <p class="form_msg">By clicking on Schedule a Demo, you acknowledge having read our
                                 <a class="form_privacy" href="pri"> Privacy note</a>
                             </p><br>
-
-
                         </form>
                     </div>
-
-
-
-
-
                 </div>
             </div>
         </div>
-
-
-
     </header>
+
+
+
     <main class="ask_question">
         <div class="aeroplane">
             <p class="top_left_logo">Get started for free</p>
@@ -297,62 +296,85 @@
                 <div class="frequent_r">
                    <h3 class="frequent_heading">Frequently Asked Questions</h3>
 
-                 
-                      <select name="" class="faq">
-                       
-                        <option value="" class="questions" >
-                            Is your pricing model based on invoices or revenue?
-                        </option>
-                        
-                         <option value="" class="questions">Our default pricing model is based on revenue. But,,<br>if you believe invoice-based pricing suits <br>your business better, let us know and we’ll be happy to accommodate it.</option>
-                    
-                    
-                </select>
-              
+                   <button class="faq">
+                       <span class="faq_question">
+                        Is your pricing model based on invoices or revenue?
+                       </span>
 
-                   <select name="" class="faq">
-                       <option value=""class="questions">What is counted as revenue?</option>
-                       <option value="">The total value of invoices generated, excluding void invoices.</option>
-                    
-                    
-                    </select> 
+                       <p class="faq_answer">
+                        Our default pricing model is based on revenue. But,if you believe invoice-based pricing suits your business better, let us know and we’ll be happy to accommodate it.
+                       </p>
+                   </button>
 
-                   <select name="" class="faq">
-                       <option value="">Will I have to pay separately for multiple sites with Chargebee?</option>
-                       <option value="">
+                   <button class="faq">
+                    <span class="faq_question">
+                        What is counted as revenue?
+                    </span>
+
+                    <p class="faq_answer">
+                        he total value of invoices generated, excluding void invoices.
+                    </p>
+                </button>
+
+                <button class="faq">
+                    <span class="faq_question">
+                        Will I have to pay separately for multiple sites with Chargebee?
+                    </span>
+
+                    <p class="faq_answer">
                         We do not charge extra for the additional sites you create, and the charges will only be based on the total revenue (or number of invoices) generated across all your sites.
-                       </option>
-                    </select>
+                    </p>
+                </button>
 
-                   <select name="" class="faq">
-                       <option value=""class="questions">Do I get a sandbox (test environment)?</option>
-                    <option value="">Absolutely. We provide a free TEST environment with every domain signed-up with us. You may use it to explore, develop & test before you go LIVE.
-                   </option>
-                    </select>
+                <button class="faq">
+                    <span class="faq_question">
+                        Do I get a sandbox (test environment)?
+                    </span>
 
+                    <p class="faq_answer">
+                        Absolutely. We provide a free TEST environment with every domain signed-up with us. You may use it to explore, develop & test before you go LIVE.
+                    </p>
+                </button>
 
-                   <select name="" class="faq">
-                       <option value=""class="questions">Are there any cancellation charges?</option>
-                    <option value="">
-                        No, we do not have cancellation charges. And there are no data lock-ins. You are free to cancel your account anytime.  
-                    </option>
-                    </select>
+                <button class="faq">
+                    <span class="faq_question">
+                        Are there any cancellation charges?
+                    </span>
 
-                   <select name="" class="faq">
-                       <option value=""class="questions">Is EU VAT included in the pricing?</option>
-                    <option value="">
+                    <p class="faq_answer">
+                        No, we do not have cancellation charges. And there are no data lock-ins. You are free to cancel your account anytime. 
+                    </p>
+                </button>
+
+                <button class="faq">
+                    <span class="faq_question">
+                        Is EU VAT included in the pricing?
+                    </span>
+
+                    <p class="faq_answer">
                         The Prices as applicable are exclusive of EU VAT to EU Merchants and shall be charged additionally for B2C merchants in accordance with EU VAT Rules.
-                    </option>
-                    </select>
+                    </p>
+                </button>
 
-                   <select name="" class="faq"><option value=""><a href="lern"><strong>Learn more</strong> &srarr;</a></option>
-                  </select>
-
+                <button class="faq_read"><a href="#" class="faq_link"><strong>Read More &srarr;</strong></a></button>
+                 
+                 
                 </div>
 
             </div>
         </div>
+            <div class="frequent_footer">
 
+                <div class="frequent_line">
+                    <h2>Still unsure? Step Inside and See <br>
+                   What The Future Looks Like.</h2>
+                </div>
+
+                <div class="frequent_btn">
+                    <button class="frequent_button"> Shedule a Demo &srarr;</button>
+                </div>
+
+            </div>
     </main>
 
 </body>
