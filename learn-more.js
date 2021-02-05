@@ -1,4 +1,3 @@
-learn_more
 var company_centric_details = document.getElementById('company_centric_details');
 var product = document.getElementById('product');
 product.addEventListener('mouseenter', function() { extend_arrow(1)});
