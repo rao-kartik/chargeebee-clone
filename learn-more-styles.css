@@ -1,6 +1,7 @@
 body {
     margin: 0%;
     font-family: 'Open Sans', sans-serif;
+    max-width: fit-content;
 }
 a {
     text-decoration: none;
@@ -53,8 +54,11 @@ a {
     font-weight: 700;
 }
 #nav_bar > div:nth-child(1) {
-    margin-left: 200px;
+    margin-right: 100px;
     border: 1px solid black;
+    height: 20px;
+    width: 120px;
+    opacity: 0;
 }
 #nav_bar > button {
     background-color: coral;
