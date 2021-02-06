@@ -13,6 +13,9 @@ nav {
 .header a {
     color: #4e5058;
 }
+.hover:hover {
+    padding-left: 5px;
+}
 .demo a, .schedule_purple a, .head_sch a {
     color: white;
 }
