@@ -136,7 +136,7 @@ html, body, #main_demo {
 }
 .form_shedule{
     color: white;
-    background-color: #3a008c;
+    /* background-color: #3a008c; */
     border-radius:8px;
     margin-top: 18px;
     width: 150px;
