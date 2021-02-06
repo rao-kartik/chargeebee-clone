@@ -31,5 +31,5 @@ Pages developed by each team member:
 
 ![image (1)](https://user-images.githubusercontent.com/47073765/107082374-1541bc00-681a-11eb-80af-d35bb1216496.png)
 
-![image (2)](https://user-images.githubusercontent.com/47073765/107082500-48844b00-681a-11eb-8f0f-f3d318756011.png)
+![image](https://user-images.githubusercontent.com/77038631/107112713-a303c280-687f-11eb-9b34-13c35bc27dc6.png)
 
