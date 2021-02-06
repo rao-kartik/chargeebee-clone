@@ -7,6 +7,8 @@ html, body, #main_demo {
     padding: 0;
     margin: 0;
     font-size: 16px;
+    max-width: 1920px;
+    margin: auto;
 }
 .header a {
     color: #4e5058;
@@ -77,12 +79,13 @@ html, body, #main_demo {
     margin-top: 9px;
     margin-right: 5px;
 }
-/* popout_product */
+/* dropdown_product */
 .header_dropdown_product {
     padding-left: 10%;
     padding-top: 1.5%;
     background-color: #f9f9f9;
     display: none;
+    z-index: +9999;
 }
 .dropdown_content > div{
     font-size: 14px;
@@ -101,6 +104,21 @@ html, body, #main_demo {
 .dropdown_content > div:nth-child(5){
     margin-left: -30px;
 }
+.header_dropdown_solutions {
+    display: none;
+    padding-left: 10%;
+    padding-top: 1.5%;
+    background-color: #f9f9f9;
+}
+.drop_sol > div { 
+    width: 190px;
+}
+.drop_sol > div:nth-child(2) {
+    margin-left: -70px;
+}
+.drop_sol > div:nth-child(5) {
+    margin-left: 5px;
+}
 /* colored subscription CSS */
 .colored_sub {
     font-size: 48px;
@@ -115,6 +133,9 @@ html, body, #main_demo {
 .colored_sub > p {
     font-size: 15px;
     line-height: 10px;
+}
+.colored_sub > p:nth-child(3) {
+    margin-left: 8%;
 }
 .sch_signup_btn {
     font-size: 20px;
@@ -146,7 +167,9 @@ html, body, #main_demo {
     margin-left: 15px;
     margin-right: 15px;
 }
+
 /* Automate _text, Smarter_text, Streamline_txt */
+
 #data_analysis {
     width: 100%;
     height: 1800px;
@@ -224,7 +247,6 @@ html, body, #main_demo {
 /* back_blue */
 #purple_main {
     width: 100%;
-    height: 2450px;
 }
 #slant_purple_top {
     width: 100%;
@@ -403,22 +425,32 @@ html, body, #main_demo {
 .options >div:nth-child(3){
     grid-area: right_up;
 }
-.under_line{
+.line_left {
     grid-area: left_down;
 }
-.under_line > div {
+.line_middle{
+    grid-area: middle_down;
+    display: none;
+}
+.line_right {
+    grid-area: right_down;
+    display: none;
+}
+.under_line {
     width: 60px;
     height: 2px;
     background-color: white;
     margin: auto;
 }
+
 /* Reviews */
+
 #reviews {
     width: 100%;
     height: 200px;
 }
 .review {
-    max-width: 1000px;
+    max-width: 1050px;
     background-color: white;
     border-radius: 8px;
     margin: auto;
@@ -427,6 +459,7 @@ html, body, #main_demo {
     position: absolute;
     top: 4600px;
     left: 23%;
+    box-shadow: 0.05rem 0.05rem rgba(0, 0, 0, 0.315);
 }
 .review_read {
     color: white;
@@ -467,7 +500,7 @@ html, body, #main_demo {
     padding-top: 20px;
     padding-left: 80px;
     padding-right: 30px;
-    max-width: 60%;
+    max-width: 55%;
 }
 .review_txt > p{
     font-size: 24px;
@@ -490,9 +523,6 @@ html, body, #main_demo {
 .txt_val {
     background-color: #bc7e0f;
 }
-/* #rethink_pricing {
-    display: none;
-} */
 #automate_finops {
     position: absolute;
     top: 4600px;
@@ -505,7 +535,9 @@ html, body, #main_demo {
     left: 23%;
     display: none;
 }
+
 /* bottom head */
+
 .bottom_head {
     padding-top: 200px;
     width: 1400px;
@@ -532,7 +564,9 @@ html, body, #main_demo {
     margin-top: 7px;
     padding-left: 5px;
 }
+
 /* Services */
+
 .comp_services {
     width: 80%;
     margin: auto;
@@ -557,7 +591,9 @@ html, body, #main_demo {
     margin-top: 22px;
     padding-left: 5px;
 }
+
 /* footer */
+
 #footer {
     margin-top: 99px;
     display: flex;
@@ -578,4 +614,37 @@ html, body, #main_demo {
     width: 30px;
     height: 30px;
     margin-left: 10px;
+}
+
+/* media queries */
+
+@media (max-width:992px) {
+    body {
+        max-width: 900px;
+    }
+    .colored_sub {
+        font-size: 36px;
+    }
+    #data_analysis {
+        max-width: 900px;
+        padding: 0;
+        height: auto;
+    }
+    .automate {
+        grid-template: "right"
+                    "left";
+        max-width: 500px;
+        border: 1px solid red;
+    }
+    .smarter {
+        grid-template: "left"
+                    "right";
+    }
+
+    #slant_purple_top {
+        top: 3435px;
+    }
+    #slant_blue_top {
+        top: 3435px;
+    }
 }
