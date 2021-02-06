@@ -648,7 +648,6 @@ html, body, #main_demo {
         grid-template: "right"
                     "left";
         max-width: 500px;
-        border: 1px solid red;
     }
     .smarter {
         grid-template: "left"
