@@ -43,6 +43,9 @@ a {
     background-position: 2% 20%;
     
 }
+#nav_bar a {
+    color: black;
+}
 #nav_bar > div {
     float: left;
     margin: 1%;
