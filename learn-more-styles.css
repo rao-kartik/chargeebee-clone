@@ -1,7 +1,8 @@
 body {
     margin: 0%;
     font-family: 'Open Sans', sans-serif;
-    max-width: fit-content;
+    max-width: 1366px;
+    margin: auto;
 }
 a {
     text-decoration: none;
