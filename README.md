@@ -33,3 +33,4 @@ Pages developed by each team member:
 
 ![image](https://user-images.githubusercontent.com/77038631/107112713-a303c280-687f-11eb-9b34-13c35bc27dc6.png)
 
+Blogpost by kartik Yadav - https://raoka8.hashnode.dev/our-experience-in-building-chargebeecom-clone
