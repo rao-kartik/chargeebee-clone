@@ -4,12 +4,20 @@
 This is the clone of [chargebee](www.chargebee.com). We started this project as a four memeber team during construct week organised at Masai School, Bengaluru, Karnataka. We tried to build as same as the website is and still this project is in continuous upgradation and soon will be launched under custom domain .
 
 ## Table of contents
+
+* [How to run the app](#how-to-run-the-app)
 * [Basic inference about the company](#basic-inference-about-the-company)
 * [Frameworks Used](#frameworks-used)
 * [Added Functionalities](#added-functionalities)
 * [Contributors](#contributors)
 * [Glimps of our work](#glimpse-of-our-work)
 * [Our experience with the project ](#our-experience-with-the-project)
+
+## How to run the app
+* Clone the repository "https://github.com/rao-kartik/himalaya-clone.git"
+* From the root folder right click on index,html and copy path
+* Now go to browser and paste the copied path and press enter
+* The app is ready to run
 
 ## Basic inference about the company
 
