@@ -9,7 +9,7 @@ This is the clone of [chargebee](www.chargebee.com). We started this project as 
 * [Added Functionalities](#added-functionalities)
 * [Contributors](#contributors)
 * [Glimps of our work](#glimpse-of-our-work)
-* [Our Project Experience](#our-project-experience)
+* [Our experience with the project ](#our-experience-with-the-project)
 
 ## Basic inference about the company
 
@@ -47,6 +47,6 @@ ChargeBee, Inc. is a subscription management and recurring billing platform. The
 
 ![image](https://user-images.githubusercontent.com/77038631/107112713-a303c280-687f-11eb-9b34-13c35bc27dc6.png)
 
-## Our Project Experience
+## Our Experience With The Project
 
 [Kartik Yadav](https://raoka8.hashnode.dev/our-experience-in-building-chargebeecom-clone)
